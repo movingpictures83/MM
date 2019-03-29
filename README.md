@@ -2,7 +2,7 @@
 # Language: Python
 # Input: CSV (file containing multi-omics data)
 # Output: NOA (file containing entities and -omics information)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.0, Python 3.6
 
 This simple plugin accepts a CSV file with columns representing multi-omics data.
 It then separates the data into various -omics and outputs a NOde Attribute file for Cytoscape.
