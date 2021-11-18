@@ -38,11 +38,10 @@ class MMPlugin:
          bac = bac.strip()
          if (bac[0] == '\"'):
             bac = bac[1:len(bac)-1]
-         if (bac[0] == 'X'):
+         if (bac[0] == 'x'):
             noafile.write(bac+"\t1\n")
          else:
             noafile.write(bac+"\t0\n")
-
 
 
 
